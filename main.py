@@ -1,8 +1,7 @@
 from Smoker import Smoker
 
 class Program(object):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __init__(self):
         self.smoker = Smoker()
 
     def run(self):
